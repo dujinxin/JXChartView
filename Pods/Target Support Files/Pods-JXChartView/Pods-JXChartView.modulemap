@@ -1,0 +1,6 @@
+framework module Pods_JXChartView {
+  umbrella header "Pods-JXChartView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		350B11A92008D3AB002B8A6D /* LineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350B11A82008D3AB002B8A6D /* LineChartViewController.swift */; };
+		350B11AB200C5133002B8A6D /* CombineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350B11AA200C5133002B8A6D /* CombineChartViewController.swift */; };
+		355948421F399A8A008145BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355948411F399A8A008145BB /* AppDelegate.swift */; };
+		355948471F399A8A008145BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355948451F399A8A008145BB /* Main.storyboard */; };
+		355948491F399A8A008145BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 355948481F399A8A008145BB /* Assets.xcassets */; };
+		3559484C1F399A8A008145BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3559484A1F399A8A008145BB /* LaunchScreen.storyboard */; };
+		355948551F39A58D008145BB /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355948541F39A58D008145BB /* MainTableViewController.swift */; };
+		355948571F39A67C008145BB /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355948561F39A67C008145BB /* BarChartViewController.swift */; };
+		4D64247E0ED508D44A1BDAB9 /* Pods_JXChartView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB78E905EB3C384DF3CF303D /* Pods_JXChartView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		350B11A82008D3AB002B8A6D /* LineChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartViewController.swift; sourceTree = "<group>"; };
+		350B11AA200C5133002B8A6D /* CombineChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineChartViewController.swift; sourceTree = "<group>"; };
+		3559483E1F399A8A008145BB /* JXChartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXChartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		355948411F399A8A008145BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		355948461F399A8A008145BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		355948481F399A8A008145BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3559484B1F399A8A008145BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3559484D1F399A8A008145BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		355948541F39A58D008145BB /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		355948561F39A67C008145BB /* BarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
+		BB78E905EB3C384DF3CF303D /* Pods_JXChartView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JXChartView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA660413457269A93D4CA06D /* Pods-JXChartView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXChartView.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXChartView/Pods-JXChartView.release.xcconfig"; sourceTree = "<group>"; };
+		E5EB91ECF34BF32375A86F3A /* Pods-JXChartView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXChartView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXChartView/Pods-JXChartView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3559483B1F399A8A008145BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D64247E0ED508D44A1BDAB9 /* Pods_JXChartView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0267ADCE7D4B4D077329C476 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5EB91ECF34BF32375A86F3A /* Pods-JXChartView.debug.xcconfig */,
+				CA660413457269A93D4CA06D /* Pods-JXChartView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		355948351F399A8A008145BB = {
+			isa = PBXGroup;
+			children = (
+				355948401F399A8A008145BB /* JXChartView */,
+				3559483F1F399A8A008145BB /* Products */,
+				0267ADCE7D4B4D077329C476 /* Pods */,
+				BAAC4C3DED67A7C83C5657E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3559483F1F399A8A008145BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3559483E1F399A8A008145BB /* JXChartView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		355948401F399A8A008145BB /* JXChartView */ = {
+			isa = PBXGroup;
+			children = (
+				355948411F399A8A008145BB /* AppDelegate.swift */,
+				355948541F39A58D008145BB /* MainTableViewController.swift */,
+				355948561F39A67C008145BB /* BarChartViewController.swift */,
+				350B11A82008D3AB002B8A6D /* LineChartViewController.swift */,
+				350B11AA200C5133002B8A6D /* CombineChartViewController.swift */,
+				355948451F399A8A008145BB /* Main.storyboard */,
+				355948481F399A8A008145BB /* Assets.xcassets */,
+				3559484A1F399A8A008145BB /* LaunchScreen.storyboard */,
+				3559484D1F399A8A008145BB /* Info.plist */,
+			);
+			path = JXChartView;
+			sourceTree = "<group>";
+		};
+		BAAC4C3DED67A7C83C5657E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB78E905EB3C384DF3CF303D /* Pods_JXChartView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3559483D1F399A8A008145BB /* JXChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 355948501F399A8A008145BB /* Build configuration list for PBXNativeTarget "JXChartView" */;
+			buildPhases = (
+				FBE040E9A01DB7E6A4F1C761 /* [CP] Check Pods Manifest.lock */,
+				3559483A1F399A8A008145BB /* Sources */,
+				3559483B1F399A8A008145BB /* Frameworks */,
+				3559483C1F399A8A008145BB /* Resources */,
+				E393CBFBF9FCA5899CFC0B5E /* [CP] Embed Pods Frameworks */,
+				9D9D36E0DFFF1394D4660ECD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXChartView;
+			productName = JXChartView;
+			productReference = 3559483E1F399A8A008145BB /* JXChartView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		355948361F399A8A008145BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = dujinxin;
+				TargetAttributes = {
+					3559483D1F399A8A008145BB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JD78BK6EHC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 355948391F399A8A008145BB /* Build configuration list for PBXProject "JXChartView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 355948351F399A8A008145BB;
+			productRefGroup = 3559483F1F399A8A008145BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3559483D1F399A8A008145BB /* JXChartView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3559483C1F399A8A008145BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3559484C1F399A8A008145BB /* LaunchScreen.storyboard in Resources */,
+				355948491F399A8A008145BB /* Assets.xcassets in Resources */,
+				355948471F399A8A008145BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D9D36E0DFFF1394D4660ECD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JXChartView/Pods-JXChartView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E393CBFBF9FCA5899CFC0B5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JXChartView/Pods-JXChartView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBE040E9A01DB7E6A4F1C761 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3559483A1F399A8A008145BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350B11AB200C5133002B8A6D /* CombineChartViewController.swift in Sources */,
+				355948551F39A58D008145BB /* MainTableViewController.swift in Sources */,
+				350B11A92008D3AB002B8A6D /* LineChartViewController.swift in Sources */,
+				355948421F399A8A008145BB /* AppDelegate.swift in Sources */,
+				355948571F39A67C008145BB /* BarChartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		355948451F399A8A008145BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				355948461F399A8A008145BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3559484A1F399A8A008145BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3559484B1F399A8A008145BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3559484E1F399A8A008145BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3559484F1F399A8A008145BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		355948511F399A8A008145BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5EB91ECF34BF32375A86F3A /* Pods-JXChartView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JD78BK6EHC;
+				INFOPLIST_FILE = JXChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zpsy.JXChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		355948521F399A8A008145BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA660413457269A93D4CA06D /* Pods-JXChartView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JD78BK6EHC;
+				INFOPLIST_FILE = JXChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zpsy.JXChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		355948391F399A8A008145BB /* Build configuration list for PBXProject "JXChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3559484E1F399A8A008145BB /* Debug */,
+				3559484F1F399A8A008145BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		355948501F399A8A008145BB /* Build configuration list for PBXNativeTarget "JXChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				355948511F399A8A008145BB /* Debug */,
+				355948521F399A8A008145BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 355948361F399A8A008145BB /* Project object */;
+}
